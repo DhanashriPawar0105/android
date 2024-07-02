@@ -1,0 +1,32 @@
+<resources>
+
+
+    <string name="you_won">You Won</string>
+    <string name="fill_the_form">Fill the Form</string>
+    <string name="full_name">Full Name</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="address">Address</string>
+    <string name="garbage_weight">Garbage Weight</string>
+    <string name="submit">SUBMIT</string>
+    <string name="english">English</string>
+    <string name="hindi">Hindi</string>
+    <string name="marathi">Marathi</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="e_mail_address">E-mail Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">DON\'T HAVE AN ACCOUNT</string>
+    <string name="you_won_the_reward">You Won The REWARD</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="e_mail_address1">E-Mail Address</string>
+    <string name="password1">Password</string>
+    <string name="already_have_an_account">Already Have An Account</string>
+    <string name="select_type_of_garbagee">Select Type Of Garbagee</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="organic">Organic</string>
+    <string name="create_account">Create Account</string>
+    <string name="check_reward">Check Reward</string>
+</resources>

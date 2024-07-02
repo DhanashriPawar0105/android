@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".formfill"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="363dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/fill_the_form"
+        android:textColor="#2EB471"
+        android:textSize="40sp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextText"
+            android:layout_width="362dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:autofillHints="Full Name"
+            android:ems="10"
+            android:hint="@string/full_name"
+            android:inputType="text"
+            tools:ignore="MissingConstraints" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/editTextText2"
+            android:layout_width="358dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:autofillHints="E-Mail Address"
+            android:ems="10"
+            android:hint="@string/e_mail"
+            android:inputType="text"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="353dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="@string/mobile_no"
+            android:inputType="number"
+            tools:ignore="Autofill,MissingConstraints"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="358dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="@string/state"
+            android:inputType="text"
+            tools:ignore="Autofill,MissingConstraints"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="378dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="359dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="@string/country"
+            android:inputType="text"
+            tools:ignore="Autofill,MissingConstraints"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="458dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="355dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="@string/address"
+            android:inputType="text"
+            tools:ignore="Autofill,MissingConstraints"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="531dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="353dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:ems="10"
+            android:hint="@string/garbage_weight"
+            android:inputType="number"
+            tools:ignore="Autofill,MissingConstraints" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
